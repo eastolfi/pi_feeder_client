@@ -12,20 +12,25 @@
   },
   "homepage": "https://github.com/eastolfi/pi_feeder_client#readme",
   "scripts": {
+    "start:c9": "./node_modules/.bin/ng serve --host 0.0.0.0 --port 8080",
+    "build": "./node_modules/.bin/ng build",
     "test": "npm test"
   },
   "nativescript": {
     "id": "org.nativescript.tmp"
   },
   "dependencies": {
-    "@angular/common": "4.0.0",
-    "@angular/compiler": "4.0.0",
-    "@angular/core": "4.0.0",
-    "@angular/forms": "4.0.0",
-    "@angular/http": "4.0.0",
-    "@angular/platform-browser": "4.0.0",
-    "@angular/platform-browser-dynamic": "4.0.0",
-    "@angular/router": "4.0.0",
+    "@angular/animations": "^4.0.2",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.2",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "core-js": "^2.4.1",
     "nativescript-angular": "~3.0.0",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
@@ -34,8 +39,15 @@
     "zone.js": "~0.8.5"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@types/node": "~6.0.60",
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
     "nativescript-dev-android-snapshot": "^0.*.*",
     "nativescript-dev-typescript": "^0.4.0",
+    "ts-node": "~2.0.0",
     "typescript": "~2.2.1"
   }
 }
