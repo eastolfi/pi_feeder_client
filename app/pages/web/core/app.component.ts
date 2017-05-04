@@ -1,11 +1,10 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-    selector: "my-app",
-    template: `
-        <p>OK!</p>
-    `
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    // Your TypeScript logic goes here
+  title = 'app works!';
 }
